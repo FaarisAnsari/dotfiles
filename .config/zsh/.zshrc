@@ -1,5 +1,6 @@
 #!/usr/bin/env zsh
 
+source ${ZDOTDIR}/environment.zsh
 source ${ZDOTDIR}/options.zsh # Source zsh options
 source ${ZDOTDIR}/aliases.zsh # Source zsh aliases
 source ${ZDOTDIR}/functions.zsh # Source custom functions

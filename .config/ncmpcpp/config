@@ -24,4 +24,6 @@ song_columns_list_format = "(7)[blue]{l} (30)[yellow]{a} (20)[red]{t}
 song_window_title_format = "{%a} - {%t}"
 
 # Notifications
-execute_on_song_change = dunstify -a "ncmpcpp" -u low -r 9000 -i emblem-music-symbolic "Now Playing" "$(mpc --format '%title%\n%artist%' current)"
+execute_on_song_change	= mpd-notif.sh
+
+# execute_on_song_change = dunstify -a "ncmpcpp" -u low -r 9000 -i emblem-music-symbolic "Now Playing" "$(mpc --format '%title%\n%artist%' current)"

@@ -4,14 +4,14 @@
     "source": "~/.config/fastfetch/tomoe.sixel",
     "type": "raw",
     "height": 9,
-		"width": 18,
+    "width": 18,
     "padding": {
-			"top": 1,
+      "top": 1,
       "left": 1,
     },
   },
   "modules": [
-		{
+    {
       "type": "title",
       "key": " hs",
       "keyColor": "green",
@@ -41,11 +41,17 @@
       "keyColor": "yellow",
       "format": "{1}",
     },
+    // {
+    //   "type": "terminal",
+    //   "key": " tr",
+    //   "keyColor": "yellow",
+    //   "format": "{1}",
+    // },
     {
-      "type": "terminal",
-      "key": " tr",
+      "type": "command",
+      "key": "󱦟 dy",
       "keyColor": "yellow",
-      "format": "{1}",
+      "text": "birth_install=$(stat -c %W /); current=$(date +%s); time_progression=$((current - birth_install)); days_difference=$((time_progression / 86400)); echo $days_difference days",
     },
     "break",
     {
