@@ -3,6 +3,7 @@
 .config/Thunar/accels.scm
 .config/Thunar/renamerrc
 .config/ncmpcpp/error.log
+.config/ncmpcpp/previews
 
 # install manually instead
 .config/zsh/.zgenom
