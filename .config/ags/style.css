@@ -11,7 +11,7 @@ window > box {
   color: @foreground;
   margin: 4px;
   margin-bottom: 0px;
-  border: 2px solid @color4;
+  border: 3px solid @color4;
   min-height: 36px;
 }
 
