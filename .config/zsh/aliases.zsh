@@ -28,6 +28,7 @@ alias rs='curl --data-binary @- https://paste.rs | wl-copy'  # Share output to a
 alias vim='$EDITOR'
 alias vi='$EDITOR'
 alias wget=wget --hsts-file="$XDG_DATA_HOME/wget-hsts"
+alias adb='HOME="$XDG_DATA_HOME"/android adb'
 alias ncm='ncmpcpp'
 
 # nvidia gpu undervolt script

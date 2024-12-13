@@ -25,6 +25,7 @@
 	<description></description>
 	<range>*</range>
 	<patterns>*</patterns>
+	<other-files/>
 	<text-files/>
 </action>
 <action>
@@ -47,6 +48,7 @@
 	<description></description>
 	<range>*</range>
 	<patterns>*</patterns>
+	<other-files/>
 	<text-files/>
 </action>
 </actions>
