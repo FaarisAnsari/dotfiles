@@ -32,4 +32,4 @@ export SUDO_PROMPT='[] Enter Password: '
 # Set default editor
 export EDITOR='nvim'
 
-export SSH_AUTH_SOCK='$XDG_RUNTIME_DIR/gcr/ssh' # Keyring
+export SSH_AUTH_SOCK=$XDG_RUNTIME_DIR/gcr/ssh # Keyring
