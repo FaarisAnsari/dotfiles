@@ -41,3 +41,4 @@ wireplumber
 xdg-desktop-portal-gtk
 xdg-desktop-portal-hyprland
 gnome-keyring
+uwsm

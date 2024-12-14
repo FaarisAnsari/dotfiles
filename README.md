@@ -4,7 +4,7 @@
 ### 🌃 based on the tokyonight color scheme.
 
 <p align="center">
-  <img src="assets/preview.png" alt="Rice Showcase">
+  <img src="assets/showcase.jpg" alt="Rice Showcase">
 </p>
 
 - **Distribution:** [arch btw](https://archlinux.org/)

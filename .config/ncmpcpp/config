@@ -16,14 +16,14 @@ external_editor = "nvim"
 # Progress bar settings
 progressbar_elapsed_color = "blue"
 progressbar_color = "black"
-progressbar_look = "━━"
+# progressbar_look = "━━"
+progressbar_look = "▃▃▃"
 
-# Song formatting
-# song_columns_list_format = "(7)[blue]{l} (30)[green]{b} (25)[yellow]{a} (10)[red]{t}
-song_columns_list_format = "(7)[blue]{l} (30)[yellow]{a} (20)[red]{t}
-song_window_title_format = "{%a} - {%t}"
+user_interface = "alternative"
+playlist_display_mode = "classic"
+song_list_format = "$5{%a $2»$8 %t}$0"
+header_visibility = "no"
+playlist_disable_highlight_delay = 1
 
 # Notifications
 execute_on_song_change	= mpd-notif.sh
-
-# execute_on_song_change = dunstify -a "ncmpcpp" -u low -r 9000 -i emblem-music-symbolic "Now Playing" "$(mpc --format '%title%\n%artist%' current)"
