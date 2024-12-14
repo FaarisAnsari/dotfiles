@@ -1,9 +1,11 @@
 <div align="center">
+
 # ⚈ dotfiles
 
 ### 🔷 by fazzi.
-### 🥬 NVIDIA desktop branch.
+### 🥬 nvidia desktop branch.
 ### 🌃 a dynamic hyprland setup!
+
 </div>
 
 <p align="center">
