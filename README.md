@@ -1,7 +1,10 @@
+<div align="center">
 # ⚈ dotfiles
 
 ### 🔷 by fazzi.
-### 🌃 based on the tokyonight color scheme.
+### 🥬 NVIDIA desktop branch.
+### 🌃 a dynamic hyprland setup!
+</div>
 
 <p align="center">
   <img src="assets/showcase.jpg" alt="Rice Showcase">
