@@ -12,7 +12,7 @@ import { ClientTitleWidget } from "./modules/ClientTitle.js";
 import { CpuUsageWidget } from "./modules/CpuUsage.js";
 import { CpuTempWidget } from "./modules/CpuTemp.js";
 import { MemUsageWidget } from "./modules/MemUsage.js";
-import { GpuTempWidget } from "./modules/GpuTemp.js";
+//import { GpuTempWidget } from "./modules/GpuTemp.js";
 import { SysTrayWidget } from "./modules/SysTray.js";
 //import { NotificationPopups } from "./modules/notificationPopups.js"
 
@@ -37,7 +37,7 @@ const Right = () =>
     10,
     [
       SysTrayWidget(),
-      GpuTempWidget(),
+      //GpuTempWidget(),
       CpuTempWidget(),
       CpuUsageWidget(),
       MemUsageWidget(),

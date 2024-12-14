@@ -7,7 +7,7 @@ const cpuTemp = Variable("", {
       try {
         // Read hardware temperature
         const [hwmonSuccess, hwmonTempBytes] = GLib.file_get_contents(
-          "/sys/class/hwmon/hwmon2/temp1_input",
+          "/sys/class/hwmon/hwmon6/temp1_input",
         );
         const hwmonTemp = hwmonSuccess
           ? parseFloat(new TextDecoder("utf-8").decode(hwmonTempBytes)) / 1000
