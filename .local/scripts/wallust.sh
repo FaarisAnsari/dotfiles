@@ -5,7 +5,7 @@ if [ -z "$1" ]; then
 	exit 1
 fi
 
-pidof hyprpaper || (hyprpaper & sleep 1) 
+pidof hyprpaper || (hyprpaper & sleep 0.5) 
 
 wallust run "$1" &
 
@@ -15,7 +15,7 @@ hyprctl hyprpaper wallpaper ,"$1"
 
 # while wallust is still running, wait
 while pgrep -x wallust >/dev/null; do
-	sleep 1
+	sleep 0.5
 done
 
 # Restart dunst and update pywalfox
