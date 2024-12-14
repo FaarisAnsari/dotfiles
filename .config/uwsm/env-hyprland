@@ -3,8 +3,8 @@ export HYPRCURSOR_THEME=XCursor-Pro-Light
 export HYPRCURSOR_SIZE=24
 
 # nvidia shenanigans
-export LIBVA_DRIVER_NAME=nvidia
-export GBM_BACKEND=nvidia-drm
-export __GLX_VENDOR_LIBRARY_NAME=nvidia
-export NVD_BACKEND=direct
-export MOZ_DISABLE_RDD_SANDBOX=1
+# export LIBVA_DRIVER_NAME=nvidia
+# export GBM_BACKEND=nvidia-drm
+# export __GLX_VENDOR_LIBRARY_NAME=nvidia
+# export NVD_BACKEND=direct
+# export MOZ_DISABLE_RDD_SANDBOX=1

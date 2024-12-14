@@ -7,7 +7,7 @@ export function SysTrayWidget() {
         child: Widget.Icon({
           icon: item.bind("icon"),
           class_name: "trayicon",
-          size: 20,
+          size: 24,
         }),
         on_primary_click: (_, event) => item.activate(event),
         on_secondary_click: (_, event) => item.openMenu(event),
