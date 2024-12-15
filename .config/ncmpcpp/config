@@ -1,5 +1,6 @@
 # Directories
 mpd_music_dir = "~/Music"
+lyrics_dir = "~/.local/share/ncmpcpp/lyrics/"
 
 # Mouse and scrolling
 mouse_support = "yes"
@@ -28,4 +29,4 @@ header_visibility = "no"
 playlist_disable_highlight_delay = 1
 
 # Notifications
-execute_on_song_change = mpd-notif.sh
+execute_on_song_change = mpd-notif.sh &
