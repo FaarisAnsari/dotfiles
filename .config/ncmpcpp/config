@@ -1,6 +1,5 @@
 # Directories
 mpd_music_dir = "~/Music"
-lyrics_directory = "~/.local/share/ncmpcpp/lyrics"
 
 # Mouse and scrolling
 mouse_support = "yes"
@@ -19,11 +18,14 @@ progressbar_color = "black"
 # progressbar_look = "━━"
 progressbar_look = "▃▃▃"
 
+# UI
 user_interface = "alternative"
 playlist_display_mode = "classic"
 song_list_format = "$5{%a $2»$8 %t}$0"
+# hide playlist info
 header_visibility = "no"
+# hide current song highlight after 1 second
 playlist_disable_highlight_delay = 1
 
 # Notifications
-execute_on_song_change	= mpd-notif.sh
+execute_on_song_change = mpd-notif.sh
