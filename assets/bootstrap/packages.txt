@@ -1,5 +1,5 @@
 acpilight
-ags
+aylurs-gtk-shell
 bottom
 chafa
 dunst
