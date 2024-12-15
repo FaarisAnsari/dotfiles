@@ -2,7 +2,7 @@
 
 # ⚈ dotfiles
 
-### 🔷 by fazzi. 🥬 nvidia desktop branch. 🌃 a dynamic hyprland setup!
+### 🔷 by fazzi. 🥬 laptop branch. 🌃 a dynamic hyprland setup!
 
 </div>
 
