@@ -1,6 +1,6 @@
 # Directories
 mpd_music_dir = "~/Music"
-lyrics_dir = "~/.local/share/ncmpcpp/lyrics/"
+lyrics_directory = "~/.local/share/ncmpcpp/lyrics/"
 
 # Mouse and scrolling
 mouse_support = "yes"

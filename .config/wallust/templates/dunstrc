@@ -270,7 +270,7 @@
     # Set this to true to use X11 output on Wayland.
     force_xwayland = false
 
-    ### Legacy
+		### Legacy
 
     # Use the Xinerama extension instead of RandR for multi-monitor support.
     # This setting is provided for compatibility with older nVidia drivers that
