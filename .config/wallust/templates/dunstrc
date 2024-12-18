@@ -24,7 +24,7 @@
     # dynamic width from 0 to 300
     # width = (0, 300)
     # constant width of 300
-    width = (240,300)
+    width = (256,384)
 
     # The maximum height of a single notification, excluding the frame.
     # height = (0,480)
@@ -424,3 +424,7 @@ timeout = 2
 [brightness]
 appname = "brightness"
 timeout = 2
+
+[mpd]
+appname = "mpd"
+max_icon_size = 96

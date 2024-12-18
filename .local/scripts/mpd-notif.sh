@@ -1,23 +1,10 @@
 #!/usr/bin/env sh
 
-# Define the music directory
-MUSICDIR="$HOME/Music"
+music_dir="$HOME/Music"
+previewdir="$XDG_STATE_HOME/ncmpcpp/previews"
+filename="$(mpc --format "$music_dir"/%file% current)"
+previewname="$previewdir/$(mpc --format %album% current | base64).png"
 
-# Temp file for the cover art in /tmp
-COVERART=$(mktemp /tmp/cover_XXXXXX.jpg)
+[ -e "$previewname" ] || ffmpeg -y -i "$filename" -an -vf scale=96:96 "$previewname" > /dev/null 2>&1
 
-# Get the current song details
-TITLE=$(mpc --format '%title%' current)
-ARTIST=$(mpc --format '%artist%' current)
-
-# Get the full path to the current song
-SONG_PATH="$MUSICDIR/$(mpc current -f %file%)"
-
-# Extract the cover art from the playing file
-ffmpeg -i "$SONG_PATH" -y -an -vcodec copy "$COVERART" 2>/dev/null
-
-# Send notification with title, artist, and cover art
-notify-send -r 27072 "Now Playing" "$TITLE \n$ARTIST" -i "$COVERART"
-
-# Clean up the temp file after sending the notification
-rm -f "$COVERART"
+notify-send -r 27072 -a "mpd" "Now Playing" "$(mpc --format '%title%\n%artist%' current)" -i "$previewname"

@@ -5,8 +5,6 @@ if [ -z "$1" ]; then
 	exit 1
 fi
 
-pidof hyprpaper || (hyprpaper & sleep 0.5) 
-
 wallust run "$1" &
 
 hyprctl hyprpaper unload all
