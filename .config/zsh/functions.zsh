@@ -20,8 +20,11 @@ function conf() {
 
 function paste() {
   local file=${1:-/dev/stdin}
-  curl --data-binary @${file} https://paste.rs
+	local link=$(curl -s --data-binary @"$file" https://paste.rs)
+	echo $link
+	wl-copy $link
 }
+
 
 function osc7-pwd() {
     emulate -L zsh # also sets localoptions for us
