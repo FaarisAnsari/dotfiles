@@ -45,5 +45,3 @@ alias yeet="sudo pacman -Rns"
 # spotify adblocker
 alias spotx="bash <(curl -sSL https://spotx-official.github.io/run.sh)"
 alias spotxset="spotx -h -l"
-
-alias mtpr="rsync --verbose --progress --omit-dir-times --no-perms --recursive --inplace"

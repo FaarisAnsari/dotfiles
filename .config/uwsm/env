@@ -1,6 +1,12 @@
 # Add additional directories to PATH
 export PATH=${PATH}:~/.local/scripts:~/.local/bin:"$XDG_DATA_HOME"/cargo/bin:"$XDG_DATA_HOME"/go/bin 
 
+# Set XDG Base Directory paths
+export XDG_CONFIG_HOME="${HOME}/.config"          # User configuration files
+export XDG_CACHE_HOME="${HOME}/.cache"            # User cache files
+export XDG_DATA_HOME="${HOME}/.local/share"       # User data files
+export XDG_STATE_HOME="${HOME}/.local/state"
+
 # run electron, gtk, qt apps in wayland native
 export ELECTRON_OZONE_PLATFORM_HINT=auto
 export GDK_BACKEND="wayland,x11"
