@@ -41,12 +41,6 @@
       "keyColor": "yellow",
       "format": "{1}",
     },
-    // {
-    //   "type": "terminal",
-    //   "key": " tr",
-    //   "keyColor": "yellow",
-    //   "format": "{1}",
-    // },
     {
       "type": "command",
       "key": "󱦟 dy",

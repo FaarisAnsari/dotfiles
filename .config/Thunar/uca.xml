@@ -51,15 +51,4 @@
 	<other-files/>
 	<text-files/>
 </action>
-<action>
-	<icon>com.github.maoschanz.DynamicWallpaperEditor</icon>
-	<name>Temporary Wallpaper</name>
-	<submenu></submenu>
-	<unique-id>1734878118524337-1</unique-id>
-	<command>wallust.sh %f</command>
-	<description></description>
-	<range>*</range>
-	<patterns>*</patterns>
-	<image-files/>
-</action>
 </actions>

@@ -201,7 +201,7 @@ whole_word = false
 
 [disk.mount_filter]
 is_list_ignored = true
-list = ["/var/cache/pacman/pkg", "/var/log", "/mnt", "/run/timeshift/backup", "/home", "/games"]
-regex = true
+list = ["/var/cache/pacman/pkg", "/var/log", "/mnt", "/.snapshots", "/home", "/games"]
+regex = false
 case_sensitive = false
 whole_word = false
