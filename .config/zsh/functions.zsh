@@ -20,7 +20,7 @@ function conf() {
   if [[ -n ${configs[$1]} ]]; then
     $EDITOR "${configs[$1]}"
   else
-    echo "Configuration for '$1' not found."
+    echo "invalid conf"
   fi
 }
 

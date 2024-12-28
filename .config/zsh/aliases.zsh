@@ -30,6 +30,7 @@ alias vi='$EDITOR'
 alias wget=wget --hsts-file="$XDG_DATA_HOME/wget-hsts"
 alias adb='HOME="$XDG_DATA_HOME"/android adb'
 alias ncm='ncmpcpp'
+alias ctl='systemctl'
 
 # nvidia gpu undervolt script
 alias uvolt="sudo systemctl restart nvidia-undervolt.service"

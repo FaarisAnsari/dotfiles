@@ -1,5 +1,5 @@
 # set hyprcursor theme and size
-export HYPRCURSOR_THEME=XCursor-Pro-Light
+export HYPRCURSOR_THEME=XCursor-Pro-Light-Hyprcursor
 export HYPRCURSOR_SIZE=24
 
 # nvidia shenanigans
@@ -8,3 +8,8 @@ export GBM_BACKEND=nvidia-drm
 export __GLX_VENDOR_LIBRARY_NAME=nvidia
 export NVD_BACKEND=direct
 export MOZ_DISABLE_RDD_SANDBOX=1
+env = __GL_SYNC_TO_VBLANK,0
+
+# enable these when nvidia gets their shit together
+env = __GL_GSYNC_ALLOWED,0
+env = __GL_VRR_ALLOWED,0
