@@ -1,6 +1,1 @@
-return {
-	{
-		"github/copilot.vim",
-		event = { "BufReadPost", "BufNewFile" },
-	},
-}
+/nix/store/z0lanqwdr2izxrfk083z3n72ahsfpjws-home-manager-files/.config/nvim/lua/plugins/copilot.lua

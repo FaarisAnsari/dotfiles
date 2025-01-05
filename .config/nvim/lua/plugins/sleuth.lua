@@ -1,7 +1,1 @@
-return {
-	-- Detect tabstop and shiftwidth automatically
-	{
-		"tpope/vim-sleuth",
-		event = "InsertEnter",
-	},
-}
+/nix/store/z0lanqwdr2izxrfk083z3n72ahsfpjws-home-manager-files/.config/nvim/lua/plugins/sleuth.lua

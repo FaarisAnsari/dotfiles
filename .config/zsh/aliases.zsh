@@ -46,3 +46,7 @@ alias yeet="sudo pacman -Rns"
 # spotify adblocker
 alias spotx="bash <(curl -sSL https://spotx-official.github.io/run.sh)"
 alias spotxset="spotx -h -l"
+
+# nix(os) aliases
+alias 'nixos-rebuild'="sudo nixos-rebuild --flake $XDG_CONFIG_HOME/nixos/#faarnixOS"
+alias 'flakeupd'="sudo nix flake update --flake $XDG_CONFIG_HOME/nixos"

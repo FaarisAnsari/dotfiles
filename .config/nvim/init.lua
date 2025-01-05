@@ -1,12 +1,1 @@
--- Set <space> as the leader key
--- See `:help mapleader`
---  NOTE: Must happen before plugins are required (otherwise wrong leader will be used)
-vim.g.mapleader = ' '
-vim.g.maplocalleader = ' '
-
-
-require('config.lazy')
-require('config.options')
-require('config.keymaps')
-require('config.icons')
-require('config.neovide')
+/nix/store/z0lanqwdr2izxrfk083z3n72ahsfpjws-home-manager-files/.config/nvim/init.lua

@@ -1,11 +1,1 @@
-#!/usr/bin/env sh
-
-WALLPAPER_DIR="$HOME/walls/images/"
-CURRENT_WALL=$(hyprctl hyprpaper listloaded)
-
-# Get a random wallpaper that is not the current one
-WALLPAPER=$(find "$WALLPAPER_DIR" -type f ! -name "$(basename "$CURRENT_WALL")" | shuf -n 1)
-
-# Apply the selected wallpaper
-wallust.sh "$WALLPAPER"
-
+/nix/store/chyxj6kq8yy1z2ka4isj6cq3x9mbz787-home-manager-files/.local/scripts/random-wall.sh

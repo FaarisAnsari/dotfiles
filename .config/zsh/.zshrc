@@ -22,9 +22,9 @@ add-zsh-hook -Uz chpwd chpwd-osc7-pwd
 
 PROMPT='%F{yellow}%3~%f $ '
 
-# hide fastfetch art if in tty
-if [ -z $WAYLAND_DISPLAY ]; then
-	fastfetch -l none
-else
-	fastfetch
-fi
+# # hide fastfetch art if in tty
+# if [ -z $WAYLAND_DISPLAY ]; then
+# 	fastfetch -l none
+# else
+# 	fastfetch
+# fi

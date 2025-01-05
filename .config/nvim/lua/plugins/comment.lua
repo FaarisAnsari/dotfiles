@@ -1,9 +1,1 @@
-return {
-	"numToStr/Comment.nvim",
-	lazy = true,
-	keys = {
-		{ "gc", mode = { "n", "v", "o" }, desc = "Comment Selection" },
-		{ "gb", mode = { "n", "v", "o" }, desc = "Comment Block" },
-	},
-	opts = function() end,
-}
+/nix/store/z0lanqwdr2izxrfk083z3n72ahsfpjws-home-manager-files/.config/nvim/lua/plugins/comment.lua

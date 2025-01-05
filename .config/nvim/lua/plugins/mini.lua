@@ -1,7 +1,1 @@
-return {
-	{
-		"echasnovski/mini.pairs",
-		event = "InsertEnter",
-		config = true,
-	},
-}
+/nix/store/z0lanqwdr2izxrfk083z3n72ahsfpjws-home-manager-files/.config/nvim/lua/plugins/mini.lua

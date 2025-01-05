@@ -1,4 +1,1 @@
-#!/usr/bin/env sh
-
-cp $(hyprctl hyprpaper listloaded) /tmp/wallpaper
-hyprlock
+/nix/store/chyxj6kq8yy1z2ka4isj6cq3x9mbz787-home-manager-files/.local/scripts/hyprlock.sh
